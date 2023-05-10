@@ -1,0 +1,197 @@
+2023-05-09 21:50:39,527 - root - INFO - This is Question 1 , Example 1
+2023-05-09 21:56:20,890 - root - INFO - This is Question 2 start
+2023-05-09 21:57:45,431 - parso.python.diff - DEBUG - diff parser start
+2023-05-09 21:57:45,431 - parso.python.diff - DEBUG - line_lengths old: 2; new: 1
+2023-05-09 21:57:45,431 - parso.python.diff - DEBUG - -> code[replace] old[1:2] new[1:1]
+2023-05-09 21:57:45,431 - parso.python.diff - DEBUG - parse_part from 1 to 1 (to 0 in part parser)
+2023-05-09 21:57:45,431 - parso.python.diff - DEBUG - diff parser end
+2023-05-09 21:59:19,480 - root - INFO - This is Start of Question 3
+2023-05-09 21:59:19,480 - root - ERROR - Except block from Question 3 executed
+Traceback (most recent call last):
+  File "C:\Users\ASUS\AppData\Local\Temp\ipykernel_12796\3002810753.py", line 5, in <module>
+    with open('sample.txt','r') as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'sample.txt'
+2023-05-09 21:59:19,480 - root - INFO - Finally Block from Question 3 executed
+2023-05-09 21:59:51,186 - root - INFO - This is Start of Question 3
+2023-05-09 22:00:16,290 - parso.python.diff - DEBUG - diff parser start
+2023-05-09 22:00:16,290 - parso.python.diff - DEBUG - line_lengths old: 1; new: 10
+2023-05-09 22:00:16,290 - parso.python.diff - DEBUG - -> code[replace] old[1:1] new[1:10]
+2023-05-09 22:00:16,290 - parso.python.diff - DEBUG - parse_part from 1 to 10 (to 9 in part parser)
+2023-05-09 22:00:16,290 - parso.python.diff - DEBUG - diff parser end
+2023-05-09 22:00:19,879 - root - INFO - This is Start of Question 3
+2023-05-09 22:00:19,879 - root - ERROR - Except block from Question 3 executed
+Traceback (most recent call last):
+  File "C:\Users\ASUS\AppData\Local\Temp\ipykernel_12796\1076845592.py", line 7, in <module>
+    with open('sample.txt','r') as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'sample.txt'
+2023-05-09 22:00:19,881 - root - INFO - Finally Block from Question 3 executed
+2023-05-09 22:06:42,130 - parso.python.diff - DEBUG - diff parser start
+2023-05-09 22:06:42,130 - parso.python.diff - DEBUG - line_lengths old: 10; new: 13
+2023-05-09 22:06:42,130 - parso.python.diff - DEBUG - -> code[replace] old[1:2] new[1:3]
+2023-05-09 22:06:42,130 - parso.python.diff - DEBUG - parse_part from 1 to 3 (to 4 in part parser)
+2023-05-09 22:06:42,130 - parso.python.diff - DEBUG - -> code[equal] old[3:3] new[4:4]
+2023-05-09 22:06:42,130 - parso.python.diff - DEBUG - parse_part from 4 to 13 (to 12 in part parser)
+2023-05-09 22:06:42,130 - parso.python.diff - DEBUG - -> code[replace] old[4:10] new[5:13]
+2023-05-09 22:06:42,130 - parso.python.diff - DEBUG - diff parser end
+2023-05-09 22:10:00,472 - parso.python.diff - DEBUG - diff parser start
+2023-05-09 22:10:00,472 - parso.python.diff - DEBUG - line_lengths old: 13; new: 18
+2023-05-09 22:10:00,476 - parso.python.diff - DEBUG - -> code[equal] old[1:12] new[1:12]
+2023-05-09 22:10:00,476 - parso.python.diff - DEBUG - copy old[1:12] new[1:8]
+2023-05-09 22:10:00,476 - parso.python.diff - DEBUG - parse_part from 9 to 18 (to 17 in part parser)
+2023-05-09 22:10:00,476 - parso.python.diff - DEBUG - -> code[replace] old[13:13] new[13:18]
+2023-05-09 22:10:00,476 - parso.python.diff - DEBUG - diff parser end
+2023-05-09 22:10:51,419 - root - INFO - Question 4 is started 
+2023-05-09 22:11:03,355 - root - INFO - This is Start of function divide
+2023-05-09 22:11:03,355 - root - INFO - Try Block executed
+2023-05-09 22:11:03,355 - root - INFO - Else Block executed
+2023-05-09 22:11:14,884 - root - INFO - This is Start of function divide
+2023-05-09 22:11:14,888 - root - ERROR - Except block executed
+Traceback (most recent call last):
+  File "C:\Users\ASUS\AppData\Local\Temp\ipykernel_12796\3285088197.py", line 12, in divide
+    result = a/b
+ZeroDivisionError: division by zero
+2023-05-09 22:11:25,881 - root - INFO - This is Start of function divide
+2023-05-09 22:11:25,881 - root - ERROR - Except block executed
+Traceback (most recent call last):
+  File "C:\Users\ASUS\AppData\Local\Temp\ipykernel_12796\3285088197.py", line 12, in divide
+    result = a/b
+ZeroDivisionError: division by zero
+2023-05-09 22:11:30,712 - root - INFO - This is Start of function divide
+2023-05-09 22:11:30,712 - root - ERROR - Except block executed
+Traceback (most recent call last):
+  File "C:\Users\ASUS\AppData\Local\Temp\ipykernel_12796\3285088197.py", line 12, in divide
+    result = a/b
+TypeError: unsupported operand type(s) for /: 'int' and 'str'
+2023-05-09 22:12:10,631 - root - INFO - This is Start of function divide
+2023-05-09 22:12:10,631 - root - ERROR - Except block executed
+Traceback (most recent call last):
+  File "C:\Users\ASUS\AppData\Local\Temp\ipykernel_12796\3285088197.py", line 12, in divide
+    result = a/b
+ZeroDivisionError: division by zero
+2023-05-09 22:12:28,635 - root - INFO - This is Start of function divide
+2023-05-09 22:12:28,635 - root - INFO - Try Block executed
+2023-05-09 22:12:28,635 - root - INFO - Else Block executed
+2023-05-09 22:14:33,737 - root - INFO - Explaining Finally block code of Question 3
+2023-05-09 22:14:33,737 - root - ERROR - Except block executed
+Traceback (most recent call last):
+  File "C:\Users\ASUS\AppData\Local\Temp\ipykernel_12796\2074260654.py", line 6, in <module>
+    c = a + b
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+2023-05-09 22:14:33,741 - root - INFO - Finally Block executed
+2023-05-09 22:14:40,410 - root - INFO - Explaining Finally block code of Question 3
+2023-05-09 22:14:40,410 - root - INFO - Try Block executed
+2023-05-09 22:14:40,410 - root - INFO - Finally Block executed
+2023-05-09 22:14:51,099 - root - INFO - Explaining Finally block code of Question 3
+2023-05-09 22:14:51,099 - root - INFO - Try Block executed
+2023-05-09 22:14:51,099 - root - INFO - Finally Block executed
+2023-05-09 22:15:04,626 - root - INFO - Explaining Finally block code of Question 3
+2023-05-09 22:15:04,626 - root - ERROR - Except block executed
+Traceback (most recent call last):
+  File "C:\Users\ASUS\AppData\Local\Temp\ipykernel_12796\3038546187.py", line 6, in <module>
+    c = a + b
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+2023-05-09 22:15:04,630 - root - INFO - Finally Block executed
+2023-05-10 21:24:31,484 - root - INFO - Explaining Finally block code of Question 3
+2023-05-10 21:24:31,495 - root - ERROR - Except block executedunsupported operand type(s) for +: 'int' and 'str'
+Traceback (most recent call last):
+  File "C:\Users\ASUS\AppData\Local\Temp\ipykernel_24264\1079884232.py", line 6, in <module>
+    c = a + b
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+2023-05-10 21:24:31,496 - root - INFO - Finally Block executed
+2023-05-10 22:02:02,543 - parso.cache - DEBUG - pickle loaded: C:\ProgramData\Anaconda3\lib\logging\__init__.py
+2023-05-10 22:02:11,430 - parso.python.diff - DEBUG - diff parser start
+2023-05-10 22:02:11,431 - parso.python.diff - DEBUG - line_lengths old: 11; new: 11
+2023-05-10 22:02:11,432 - parso.python.diff - DEBUG - -> code[equal] old[1:10] new[1:10]
+2023-05-10 22:02:11,432 - parso.python.diff - DEBUG - parse_part from 1 to 5 (to 6 in part parser)
+2023-05-10 22:02:11,433 - parso.python.diff - DEBUG - parse_part from 6 to 11 (to 10 in part parser)
+2023-05-10 22:02:11,433 - parso.python.diff - DEBUG - -> code[replace] old[11:11] new[11:11]
+2023-05-10 22:02:11,433 - parso.python.diff - DEBUG - diff parser end
+2023-05-10 22:02:11,644 - parso.cache - DEBUG - pickle loaded: C:\ProgramData\Anaconda3\lib\site-packages\jedi\third_party\typeshed\stdlib\3\builtins.pyi
+2023-05-10 22:02:11,684 - parso.cache - DEBUG - pickle loaded: C:\ProgramData\Anaconda3\lib\site-packages\jedi\third_party\typeshed\stdlib\3\sys.pyi
+2023-05-10 22:02:23,397 - root - ERROR - Error:Cannot calculate square root of a negative number
+Traceback (most recent call last):
+  File "C:\Users\ASUS\AppData\Local\Temp\ipykernel_24264\158853422.py", line 8, in <module>
+    result = calculate_square_root(-9)
+  File "C:\Users\ASUS\AppData\Local\Temp\ipykernel_24264\158853422.py", line 3, in calculate_square_root
+    raise ValueError("Cannot calculate square root of a negative number")
+ValueError: Cannot calculate square root of a negative number
+2023-05-10 22:02:39,511 - parso.python.diff - DEBUG - diff parser start
+2023-05-10 22:02:39,511 - parso.python.diff - DEBUG - line_lengths old: 11; new: 1
+2023-05-10 22:02:39,511 - parso.python.diff - DEBUG - -> code[replace] old[1:11] new[1:1]
+2023-05-10 22:02:39,512 - parso.python.diff - DEBUG - parse_part from 1 to 1 (to 0 in part parser)
+2023-05-10 22:02:39,512 - parso.python.diff - DEBUG - diff parser end
+2023-05-10 22:03:16,670 - parso.python.diff - DEBUG - diff parser start
+2023-05-10 22:03:16,671 - parso.python.diff - DEBUG - line_lengths old: 1; new: 11
+2023-05-10 22:03:16,671 - parso.python.diff - DEBUG - -> code[replace] old[1:1] new[1:11]
+2023-05-10 22:03:16,672 - parso.python.diff - DEBUG - parse_part from 1 to 11 (to 10 in part parser)
+2023-05-10 22:03:16,672 - parso.python.diff - DEBUG - diff parser end
+2023-05-10 22:03:21,015 - parso.python.diff - DEBUG - diff parser start
+2023-05-10 22:03:21,015 - parso.python.diff - DEBUG - line_lengths old: 11; new: 11
+2023-05-10 22:03:21,015 - parso.python.diff - DEBUG - -> code[equal] old[1:10] new[1:10]
+2023-05-10 22:03:21,018 - parso.python.diff - DEBUG - parse_part from 1 to 5 (to 6 in part parser)
+2023-05-10 22:03:21,019 - parso.python.diff - DEBUG - parse_part from 6 to 11 (to 10 in part parser)
+2023-05-10 22:03:21,019 - parso.python.diff - DEBUG - -> code[replace] old[11:11] new[11:11]
+2023-05-10 22:03:21,019 - parso.python.diff - DEBUG - diff parser end
+2023-05-10 22:03:38,757 - root - ERROR - Error:Cannot calculate square root of a negative number
+Traceback (most recent call last):
+  File "C:\Users\ASUS\AppData\Local\Temp\ipykernel_24264\2422016880.py", line 8, in <module>
+    result = calculate_square_root(-9)
+  File "C:\Users\ASUS\AppData\Local\Temp\ipykernel_24264\2422016880.py", line 3, in calculate_square_root
+    raise ValueError("Cannot calculate square root of a negative number")
+ValueError: Cannot calculate square root of a negative number
+2023-05-10 22:04:19,867 - root - ERROR - Error:Cannot calculate square root of a negative number
+Traceback (most recent call last):
+  File "C:\Users\ASUS\AppData\Local\Temp\ipykernel_24264\3993444865.py", line 2, in <module>
+    result = calculate_square_root(-9)
+  File "C:\Users\ASUS\AppData\Local\Temp\ipykernel_24264\241158002.py", line 3, in calculate_square_root
+    raise ValueError("Cannot calculate square root of a negative number")
+ValueError: Cannot calculate square root of a negative number
+2023-05-10 22:05:05,702 - parso.python.diff - DEBUG - diff parser start
+2023-05-10 22:05:05,702 - parso.python.diff - DEBUG - line_lengths old: 11; new: 6
+2023-05-10 22:05:05,702 - parso.python.diff - DEBUG - -> code[equal] old[1:3] new[1:3]
+2023-05-10 22:05:05,703 - parso.python.diff - DEBUG - parse_part from 1 to 6 (to 5 in part parser)
+2023-05-10 22:05:05,703 - parso.python.diff - DEBUG - -> code[delete] old[4:9] new[4:3]
+2023-05-10 22:05:05,703 - parso.python.diff - DEBUG - -> code[equal] old[10:10] new[4:4]
+2023-05-10 22:05:05,703 - parso.python.diff - DEBUG - -> code[replace] old[11:11] new[5:6]
+2023-05-10 22:05:05,704 - parso.python.diff - DEBUG - diff parser end
+2023-05-10 22:05:32,578 - root - ERROR - Error:Cannot calculate square root of a negative number
+Traceback (most recent call last):
+  File "C:\Users\ASUS\AppData\Local\Temp\ipykernel_24264\3993444865.py", line 2, in <module>
+    result = calculate_square_root(-9)
+  File "C:\Users\ASUS\AppData\Local\Temp\ipykernel_24264\2421364995.py", line 3, in calculate_square_root
+    raise ValueError("Cannot calculate square root of a negative number")
+ValueError: Cannot calculate square root of a negative number
+2023-05-10 22:05:38,873 - root - ERROR - Error:'<' not supported between instances of 'str' and 'int'
+Traceback (most recent call last):
+  File "C:\Users\ASUS\AppData\Local\Temp\ipykernel_24264\3708324119.py", line 2, in <module>
+    result = calculate_square_root('g')
+  File "C:\Users\ASUS\AppData\Local\Temp\ipykernel_24264\2421364995.py", line 2, in calculate_square_root
+    if number < 0:
+TypeError: '<' not supported between instances of 'str' and 'int'
+2023-05-10 22:13:17,364 - root - INFO - Question 5 , case 1 started
+2023-05-10 22:13:17,365 - root - INFO - No Error occured
+2023-05-10 22:13:23,912 - root - INFO - Question 5 , case 1 started
+2023-05-10 22:13:23,912 - root - ERROR - Percentage not in range
+2023-05-10 22:14:12,080 - root - INFO - Question 5 , case 1 started
+2023-05-10 22:14:12,081 - root - ERROR - Percentage not in range
+2023-05-10 22:14:15,705 - root - INFO - Question 5 , case 1 started
+2023-05-10 22:14:15,705 - root - INFO - No Error occured
+2023-05-10 22:14:16,801 - root - INFO - Question 5 , case 2 started
+2023-05-10 22:14:16,801 - root - ERROR - Percentage not in range
+2023-05-10 22:19:25,444 - parso.python.diff - DEBUG - diff parser start
+2023-05-10 22:19:25,445 - parso.python.diff - DEBUG - line_lengths old: 6; new: 20
+2023-05-10 22:19:25,445 - parso.python.diff - DEBUG - -> code[replace] old[1:3] new[1:2]
+2023-05-10 22:19:25,446 - parso.python.diff - DEBUG - parse_part from 1 to 7 (to 8 in part parser)
+2023-05-10 22:19:25,446 - parso.python.diff - DEBUG - -> code[equal] old[4:4] new[3:3]
+2023-05-10 22:19:25,446 - parso.python.diff - DEBUG - -> code[replace] old[5:6] new[4:20]
+2023-05-10 22:19:25,448 - parso.python.diff - DEBUG - parse_part from 8 to 20 (to 19 in part parser)
+2023-05-10 22:19:25,448 - parso.python.diff - DEBUG - diff parser end
+2023-05-10 22:20:02,523 - parso.python.diff - DEBUG - diff parser start
+2023-05-10 22:20:02,524 - parso.python.diff - DEBUG - line_lengths old: 20; new: 20
+2023-05-10 22:20:02,524 - parso.python.diff - DEBUG - -> code[equal] old[1:19] new[1:19]
+2023-05-10 22:20:02,525 - parso.python.diff - DEBUG - copy old[1:14] new[1:10]
+2023-05-10 22:20:02,526 - parso.python.diff - DEBUG - parse_part from 11 to 15 (to 15 in part parser)
+2023-05-10 22:20:02,526 - parso.python.diff - DEBUG - parse_part from 16 to 20 (to 19 in part parser)
+2023-05-10 22:20:02,527 - parso.python.diff - DEBUG - -> code[replace] old[20:20] new[20:20]
+2023-05-10 22:20:02,527 - parso.python.diff - DEBUG - diff parser end
+2023-05-10 22:23:32,673 - root - ERROR - Division by zero is not allowed.
